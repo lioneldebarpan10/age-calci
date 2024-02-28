@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Age Calculator</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+<link rel="stylesheet" href="extra.css">
+<script src="extra.js"></script>
+
+<body>
+   <h1>Age Calculator</h1>
+   <main class="container">
+      <div class="input">
+         <!--Birthday Section/ Display Input Section-->
+         <label for="birthdate">Enter Your Birthdate:</label>
+         <br>
+         <br>
+         <input type="date" id="birthdate" />
+      </div>
+
+      <!--Display Output Section-->
+      <li><span id="year"></span>Years</li>
+      <li><span id="month"></span>Months</li>
+      <li><span id="day"></span>Days</li>
+      <li><span id="hour"></span>Hours</li>
+      <li><span id="minute"></span>Minutes</li>
+      <li><span id="second"></span>Seconds</li>
+
+      <!--Button Section-->
+      <div class="btn">
+         <button onclick="calculate()">Calculate</button>
+         <button onclick="reset()">Reset</button>
+      </div>
+   </main>
+   <div class="slider-thumb"></div>
+</body>
+
+</html>
